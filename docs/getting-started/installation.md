@@ -111,6 +111,14 @@ npm install --save @solana/wallet-adapter-wallets \
   </CodeGroupItem>
 </CodeGroup>
 
+## Install Mac M1
+
+Currently the recommended path for installation on a mac m1 would be to use Rosetta Terminal, for both installation and running the CLI tools and solana-test-validator.
+
+Here is a full guide on the process:
+[Mac M1 Solana Install Guide](https://dev.to/nickgarfield/how-to-install-solana-dev-tools-on-an-m1-mac-kfn)
+
+
 ## Install Rust
 
 <CodeGroup>
@@ -291,10 +299,3 @@ prebuilt binaries:
 ```bash
 solana-install init
 ```
-
-## Install for Mac M1
-
-The recommended path for Solana installation on a mac m1 would be to use Rosetta.
-
-Here is a full guide on the process:
-[Mac M1 Installation Guide](https://dev.to/nickgarfield/how-to-install-solana-dev-tools-on-an-m1-mac-kfn)
